@@ -1,0 +1,20 @@
+# Raw data and output folders — never commit data files
+**/data/
+**/raw_data/
+**/output/
+
+# CSV files anywhere in the repo
+*.csv
+
+# Excel files
+*.xlsx
+*.xls
+
+# R workspace and history
+.RData
+.Rhistory
+.Rproj.user/
+
+# OS files
+.DS_Store
+Thumbs.db
